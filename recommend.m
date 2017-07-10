@@ -91,7 +91,7 @@ classList = loadClassList();
 for i=1:10
     j = ix(i);
     fprintf(my_predictions(j));
-    fprintf("-");
+    fprintf('-\n\n');
     fprintf(classList{j});
-    fprintf("==========");
+    fprintf('==============\n\n');
 end
